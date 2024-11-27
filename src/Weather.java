@@ -1,5 +1,17 @@
 public class Weather {
     public static void main(String[] args) {
+        String temperatura = "0";
+
+        if (temperatura > 0) {
+                System.out.println("Te estás congelando");
+        } else if (temperatura < 0) {
+            System.out.println("Hace mucho frio");
+        } else {
+            System.out.println("Con un abrigo estas bien");
+        }
+
+
+
         //Escribe un programa que pida al usuario que ingrese la temperatura en celcius de su ciudad (La pregunta y la respuesta deberá estar en una sola línea) y según ello devuelva lo siguiente:
         //Si es bajo 0: Te estás congelando
         //Si es entre 0 y 10: Hace mucho frío 
@@ -11,3 +23,4 @@ public class Weather {
         //Imprime el resultado
     }
 }
+
