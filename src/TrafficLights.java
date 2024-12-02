@@ -1,6 +1,6 @@
 public class TrafficLights {
     public static void main(String[] args) {
-        String color = "azul";
+        String color = "verde";
         switch (color.toLowerCase()) {
 
             case "verde":
